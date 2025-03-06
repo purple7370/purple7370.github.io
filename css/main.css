@@ -7,3 +7,6 @@ h2 {
 th {
   color:blueviolet;
 }
+tr:nth-child(odd) {
+      background-color: aliceblue;
+}
