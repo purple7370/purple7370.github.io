@@ -7,6 +7,6 @@ h2 {
 th {
   color:blueviolet;
 }
-tr:nth-child(odd) {
-      background-color: aliceblue;
+table, th, td {
+      border: 3px rgb(75, 22, 105) solid;
 }
