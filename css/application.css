@@ -1,5 +1,5 @@
 :root {
-  background-image: url("Purple.jpg");
+  background-color:black;
 }
 @font-face {
   font-family: UNCtitle;
@@ -16,3 +16,7 @@ h1 {
 h2 {
   color:blueviolet;
   font-family: UNCtitle;
+}
+p {
+  font-family: UNCbody;
+}
