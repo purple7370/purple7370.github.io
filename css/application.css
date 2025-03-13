@@ -3,11 +3,11 @@
 }
 @font-face {
   font-family: UNCtitle;
-  src: url("css/fonts/Arvo-Regular.ttf");
+  src: url("fonts/Arvo-Regular.ttf");
 }
 @font-face {
   font-family: UNCbody;
-  src: url("css/fonts/OpenSans-Regular.ttf");
+  src: url("fonts/OpenSans-Regular.ttf");
 }
 h1 {
   color:blueviolet;
