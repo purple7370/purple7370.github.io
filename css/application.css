@@ -1,10 +1,13 @@
+:root {
+  background-image: url("Purple.jpg");
+}
 @font-face {
   font-family: UNCtitle;
-  src: url(css/fonts/Arvo-Regular.ttf);
+  src: url("css/fonts/Arvo-Regular.ttf");
 }
 @font-face {
   font-family: UNCbody;
-  src: url(css/fonts/OpenSans-Regular.ttf);
+  src: url("css/fonts/OpenSans-Regular.ttf");
 }
 h1 {
   color:blueviolet;
