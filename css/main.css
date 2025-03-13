@@ -1,10 +1,10 @@
 @font-face {
   font-family: UNCtitle;
-  src: url(css/fonts/Arvo-Regular.ttf);
+  src: url("fonts/Arvo-Regular.ttf");
 }
 @font-face {
   font-family: UNCbody;
-  src: url(css/fonts/OpenSans-Regular.ttf);
+  src: url("fonts/OpenSans-Regular.ttf");
 }
 h1 {
   color:blueviolet;
@@ -13,6 +13,9 @@ h1 {
 h2 {
   color:blueviolet;
   font-family: UNCtitle;
+}
+p {
+  font-family: UNCbody;
 }
 th {
   color: rgb(96, 15, 172);
