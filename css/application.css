@@ -9,14 +9,12 @@
   font-family: UNCbody;
   src: url("fonts/OpenSans-Regular.ttf");
 }
-h1, h2, th {
+h1, h2 {
   color: rgb(242, 0, 0);
   font-family: UNCtitle;
-}
-h1, h2 {
     text-align: center;
 }
-li, p {
+li, p, th {
     color: rgb(206, 0, 0);
 }
 tr, tr li {
