@@ -12,6 +12,7 @@
 h1, h2 {
   color:blueviolet;
   font-family: UNCtitle;
+  text-align: center;
 }
 p, li, td {
   font-family: UNCbody;
@@ -42,4 +43,8 @@ table td {
 }
 a:hover {
       color: rgb(132, 37, 255);
+}
+img {
+  display: block;
+  margin: auto;
 }
