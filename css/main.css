@@ -6,20 +6,17 @@
   font-family: UNCbody;
   src: url("fonts/OpenSans-Regular.ttf");
 }
-h1 {
+h1, h2 {
   color:blueviolet;
   font-family: UNCtitle;
 }
-h2 {
-  color:blueviolet;
-  font-family: UNCtitle;
-}
-p {
+p, li, td {
   font-family: UNCbody;
 }
 th {
   color: rgb(96, 15, 172);
   background-color: rgb(231, 205, 255);
+  font-family: UNCtitle;
 }
 table, th, td {
       border: 1px solid rgb(97, 7, 180);
