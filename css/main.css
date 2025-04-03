@@ -40,3 +40,6 @@ table img {
 table td {
   text-align: center;
 }
+a:hover {
+      color: rgb(132, 37, 255);
+}
