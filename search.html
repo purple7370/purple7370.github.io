@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Template</title>
+    <title>Search</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <h1>Page Title</h1>
-    <h2>Subheading</h2>
-    <p>Body text.</p>
-    <h2>Subheading</h2>
-    <p>Body text.</p>
+    <h1>Music Search</h1>
+    <form action="https://www.google.com/" method="get" target="_blank">
+      <label for="q">Input desired song:</label>
+        <textarea rows="1" type="text" name="q" id="search" placeholder="&#119070;"></textarea><br>
+        <input type="radio" name="as_epq" id="lyric" value="lyrics" checked>
+        <label for="lyric">Lyrics</label><br>
+        <input type="radio" name="as_epq" id="mv" value="music video">
+        <label for="mv">Music Video</label><br>
+        <input type="radio" name="as_epq" id="wikipedia" value="wikipedia">
+        <label for="wikipedia">Wikipedia</label><br>
+        <input type="submit" value="Search">
+    </form>
     <p><a href="https://purple7370.github.io/index.html"><img src="https://purple7370.github.io/images/Button.png" alt="Button" class="base"></a></p>
   </body>
 </html>
