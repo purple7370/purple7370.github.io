@@ -43,3 +43,7 @@ table img {
 table td {
   text-align: center;
 }
+img.base {
+  display: block;
+  margin: auto;
+}
