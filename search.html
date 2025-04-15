@@ -3,19 +3,31 @@
   <head>
     <title>Search</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://purple7370.github.io/css/main.css">
   </head>
   <body>
     <h1>Music Search</h1>
-    <form action="https://www.google.com/" method="get" target="_blank">
-      <label for="q">Input desired song:</label>
-        <textarea rows="1" type="text" name="q" id="search" placeholder="&#119070;"></textarea><br>
-        <input type="radio" name="as_epq" id="lyric" value="lyrics" checked>
-        <label for="lyric">Lyrics</label><br>
+    <form action="https://www.google.com/search" method="get" target="_blank">
+      <label for="s">Input desired song:</label>
+        <input type="text" name="q" id="s" placeholder="just dance"><br>
+      <label for="a">Artist:</label>
+        <input type="text" name="q" id="a" placeholder="lady gaga"><br>
+      <label for="x">Words to exclude:</label>
+        <input type="text" name="as_eq" id="x" placeholder="remix/cover/game"><br>
+      <label for="website">Choose a website:</label>
+        <select name="as_sitesearch" id="website">
+            <option value="">No website selected</option>
+            <option value="genius.com">Genius</option>
+            <option value="wikipedia.org">Wikipedia</option>
+            <option value="youtube.com">YouTube</option></select><br>
+        <input type="radio" name="as_epq" id="song" value="song" checked>
+      <label for="song">Song</label><br>
+        <input type="radio" name="as_epq" id="lyric" value="lyrics">
+      <label for="lyric">Lyrics</label><br>
         <input type="radio" name="as_epq" id="mv" value="music video">
-        <label for="mv">Music Video</label><br>
-        <input type="radio" name="as_epq" id="wikipedia" value="wikipedia">
-        <label for="wikipedia">Wikipedia</label><br>
+      <label for="mv">Music Video</label><br>
+        <input type="radio" name="as_epq" id="lv" value="lyric video">
+      <label for="lv">Lyric Video</label><br>
         <input type="submit" value="Search">
     </form>
     <p><a href="https://purple7370.github.io/index.html"><img src="https://purple7370.github.io/images/Button.png" alt="Button" class="base"></a></p>
