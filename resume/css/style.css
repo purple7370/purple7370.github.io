@@ -3,17 +3,17 @@
 }
 @font-face {
   font-family: UNCtitle;
-  src: url("https://purple7370.github.io/fonts/Arvo-Regular.ttf");
+  src: url("https://purple7370.github.io/css/fonts/Arvo-Regular.ttf");
 }
 @font-face {
   font-family: UNCbody;
-  src: url("https://purple7370.github.io/fonts/OpenSans-Regular.ttf");
+  src: url("https://purple7370.github.io/css/fonts/OpenSans-Regular.ttf");
 }
 h1, h2 {
   color:blueviolet;
   font-family: UNCtitle;
 }
-p, li, td, form {
+p, li, td, form, section {
   font-family: UNCbody;
 }
 th {
