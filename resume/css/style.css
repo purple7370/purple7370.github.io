@@ -2,24 +2,24 @@
   background-color: rgb(241, 237, 245);
 }
 @font-face {
-  font-family: UNCtitle;
-  src: url("https://purple7370.github.io/css/fonts/Arvo-Regular.ttf");
+  font-family: Title;
+  src: url("fonts/Domine-VariableFont_wght.ttf");
 }
 @font-face {
-  font-family: UNCbody;
-  src: url("https://purple7370.github.io/css/fonts/OpenSans-Regular.ttf");
+  font-family: Body;
+  src: url("fonts/Urbanist-VariableFont_wght.ttf");
 }
 h1, h2 {
   color:blueviolet;
-  font-family: UNCtitle;
+  font-family: Title;
 }
 p, li, td, form, section {
-  font-family: UNCbody;
+  font-family: Body;
 }
 th {
   color: rgb(96, 15, 172);
   background-color: rgb(231, 205, 255);
-  font-family: UNCtitle;
+  font-family: Title;
 }
 table, th, td {
       border: 1px solid rgb(97, 7, 180);
