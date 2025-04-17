@@ -3,11 +3,11 @@
 }
 @font-face {
   font-family: UNCtitle;
-  src: url("../fonts/Arvo-Regular.ttf");
+  src: url("https://purple7370.github.io/fonts/Arvo-Regular.ttf");
 }
 @font-face {
   font-family: UNCbody;
-  src: url("../fonts/OpenSans-Regular.ttf");
+  src: url("https://purple7370.github.io/fonts/OpenSans-Regular.ttf");
 }
 h1, h2 {
   color:blueviolet;
