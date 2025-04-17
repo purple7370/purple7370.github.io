@@ -1,0 +1,49 @@
+:root {
+  background-color: rgb(241, 237, 245);
+}
+@font-face {
+  font-family: UNCtitle;
+  src: url("../fonts/Arvo-Regular.ttf");
+}
+@font-face {
+  font-family: UNCbody;
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+h1, h2 {
+  color:blueviolet;
+  font-family: UNCtitle;
+}
+p, li, td, form {
+  font-family: UNCbody;
+}
+th {
+  color: rgb(96, 15, 172);
+  background-color: rgb(231, 205, 255);
+  font-family: UNCtitle;
+}
+table, th, td {
+      border: 1px solid rgb(97, 7, 180);
+      padding: 10px;
+      border-collapse: collapse;
+}
+tr:nth-child(odd) {
+      background-color: rgb(248, 240, 255);
+}
+tr:nth-child(even) {
+      background-color: rgb(253, 251, 255);
+}
+table img {
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+table td {
+  text-align: center;
+}
+a:hover {
+      color: rgb(132, 37, 255);
+}
+img.base {
+  display: block;
+  margin: auto;
+}
