@@ -13,7 +13,7 @@ h1, h2 {
   color:blueviolet;
   font-family: UNCtitle;
 }
-p, li, td, form {
+p, li, td, form, section {
   font-family: UNCbody;
 }
 th {
