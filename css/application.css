@@ -43,6 +43,9 @@ table img {
 table td {
   text-align: center;
 }
+td, th {
+  word-break: break-word;
+}
 img.base {
   display: block;
   margin: auto;
