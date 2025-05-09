@@ -1,0 +1,55 @@
+:root {
+  background-color: #fef8f2;
+}
+
+@font-face {
+  font-family: Title;
+  src: url("fonts/Arvo-Regular.ttf");
+}
+@font-face {
+  font-family: Body;
+  src: url("fonts/OpenSans-Regular.ttf");
+}
+
+body {
+  font-family: Body, sans-serif;
+  color: #3b1f00;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+h1,
+h2 {
+  font-family: Title, serif;
+  color: #99140b;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+strong, a {
+  color: #99140b;
+}
+.top-bar {
+  background-color: #f5d49a;
+  height: 20px;
+  width: 100%;
+}
+
+.bottom-bar {
+  background-color: #99140b;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-family: Body, sans-serif;
+  font-size: 30px;
+}
